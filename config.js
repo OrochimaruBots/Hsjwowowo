@@ -9,7 +9,7 @@ global.owner = [
   ['+84 34 979 0091'],
   ['+62 818-0545-0249'],
   ['+13177997217', 'OwnerDelta', true],
-  ['+84 82 430 4616', 'Bot', true],
+  ['+62 857-9540-4882', 'Arman', true],
   ['+84 34 979 0091', 'Johannes', true],
   ['+62 823-2567-3016', 'Delta', true],
   // [number, dia creator/owner?, dia developer?]
