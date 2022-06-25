@@ -4,14 +4,14 @@ import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['+1 317-799-7217'],
-  ['+84 82 430 4616'],
-  ['+84 34 979 0091'],
-  ['+62 818-0545-0249'],
-  ['+13177997217', 'OwnerDelta', true],
-  ['+62 857-9540-4882', 'Arman', true],
-  ['+84 34 979 0091', 'Johannes', true],
-  ['+62 823-2567-3016', 'Delta', true],
+  ['+62 856-9168-6671'],
+  ['+62 856-9168-6671'],
+  ['+62 856-9168-6671'],
+  ['+62 856-9168-6671'],
+  ['+62 856-9168-6671', 'レザマスター', true],
+  ['+62 856-9168-6671', 'レザマスター', true],
+  ['+62 856-9168-6671', 'レザマスター', true],
+  ['+62 856-9168-6671', 'レザマスター', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -39,11 +39,11 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '                「 Delta BOT あ⁩ 」' //Main Watermark
+global.wm = '                「 Chika BOT あ⁩ 」' //Main Watermark
 
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
-global.wm3 = '⫹⫺ Delta 𝗕𝗢𝗧'
+global.wm3 = '⫹⫺ Chika 𝗕𝗢𝗧'
 
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
@@ -52,7 +52,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 Delta BOT あ⁩ 」'
+global.author = '                「 Chika BOT あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
