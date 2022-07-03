@@ -5,12 +5,6 @@ import moment from 'moment-timezone'
 
 global.owner = [
   ['+62 856-9168-6671'],
-  ['+62 856-9168-6671'],
-  ['+62 856-9168-6671'],
-  ['+62 856-9168-6671'],
-  ['+62 856-9168-6671', 'レザマスター', true],
-  ['+62 856-9168-6671', 'レザマスター', true],
-  ['+62 856-9168-6671', 'レザマスター', true],
   ['+62 856-9168-6671', 'レザマスター', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
@@ -123,8 +117,8 @@ global.hsquere = '⛶', '❏', '⫹⫺'
 global.l = '「'
 global.r = '」'
 // Sticker WM
-global.packname = ''
-global.author = ''
+global.packname = 'punya reza'
+global.author = '❏chika bot'
 
 global.multiplier = 69 // The higher, The harder levelup
 
