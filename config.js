@@ -117,8 +117,8 @@ global.hsquere = '⛶', '❏', '⫹⫺'
 global.l = '「'
 global.r = '」'
 // Sticker WM
-global.packname = 'punya reza'
-global.author = '❏chika bot'
+global.packname = ''
+global.author = ''
 
 global.multiplier = 69 // The higher, The harder levelup
 
