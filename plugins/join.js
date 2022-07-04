@@ -10,7 +10,7 @@ let imgr = flaaa.getRandom()
     let res = await conn.groupAcceptInvite(code)
     if (!res) throw res.toString()
     let name = await conn.getName(res).catch(_ => null)
-    expired = Math.floor(Math.min(5, Math.max(999, isOwner ? expired && expired.isNumber(6285691686671) ? parseInt(expired) : 0 : 3)))
+    expired = Math.floor(Math.min(1, Math.max(999, isOwner ? expired && expired.isNumber() ? parseInt(expired) : 0 : 3)))
     let caption = `*Berhasil join grup* ${name || res} ${expired ? `selama *${expired}* hari` : ''}\n*Jangan lupa baca rules ngap!*`
     await conn.sendButton(m.chat, caption, wm, imgr, [
                 ['Rules', `${usedPrefix}rules`]
