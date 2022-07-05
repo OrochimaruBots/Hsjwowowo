@@ -5,7 +5,7 @@ let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
 let str = ` ${conn.getName(m.sender)} Want Support Bot?
 *PAYMENT ↓*
 _*Pulsa/(Indosat):*_ 085691686671
-_*Dana/ovo:*_ 085691686671
+_*Dana/gopay:*_ 085691686671
 Setelah melakukan donasi kirim bukti pembayaran ke owner
 `
 conn.sendHydrated(m.chat, str, wm, pepe, 'https://www.instagram.com/sih_bot', 'ɪɴꜱᴛᴀɢʀᴀᴍ', null, null, [
