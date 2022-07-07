@@ -7,8 +7,9 @@ conn.sendHydrated(m.chat, '*『 ᴄʜɪᴋᴀ ʙᴏᴛ 』*', `ʜᴀɪ,ᴀᴋᴜ
 [`\nYAMETE KUDASAI AHH`, 'Bilek']
 ], m, {asLocation: true})
 }
-handler.help = ['menu']
+handler.help = ['.menu']
 handler.tags = ['general']
-handler.command = /^(menu)$/i
+handler.customPrefix = /^(menu|.menu)$/i
+handler.command = new RegExp
 
 export default handler
