@@ -1,39 +1,15 @@
-let { generateWAMessageFromContent } = require('@adiwajshing/baileys')
+import { generateWAMessageFromContent } from '@adiwajshing/baileys'
+
 let handler = async (m, { conn, text, participants }) => {
-  let users = participants.map(u => u.id)
+  let users = participants.map(u => conn.decodeJid(u.id))
   let q = m.quoted ? m.quoted : m
   let c = m.quoted ? m.quoted : m.msg
-  let msg = await conn.cMod(
-    m.chat,
-    await generateWAMessageFromContent(
-      m.chat,
-      {
-        [c.toJSON ? q.mtype : 'extendedTextMessage']: c.toJSON ? c.toJSON() : {
-          text: await c || ''
-        },
-        mentions: await users
-      }, {
-        quoted: null,
-        userJid: conn.user.id
-      }
-    ),
-    text || q.text, conn.user.jid,
-    {
-      mentions: await users
-    }
-  )
-  await conn.relayMessage(m.chat, msg.message, {
-    messageId: msg.key.id
-  })
+  let msg = conn.cMod(m.chat, generateWAMessageFromContent(m.chat, { [c.toJSON ? q.mtype : 'extendedTextMessage']: c.toJSON ? c.toJSON() : { text: c || '' }}, { quoted: null, userJid: conn.user.id }), text || q.text, conn.user.jid, { mentions: users })
+  await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
 }
-handler.help = ['hidetag', 'pengumuman'].map(v => v + ' [teks]')
+handler.help = handler.alias = ['hidetag']
 handler.tags = ['group']
-handler.command = /^(pengumuman|announce|hiddentag|hidetag)$/i
+handler.command = /^(hidetag)$/i
+handler.group = handler.admin = true
 
-handler.group = true
-handler.admin = true
-handler.limit = true
-
-module.exports = handler
-
-// Aguz Familia
+export default handler
