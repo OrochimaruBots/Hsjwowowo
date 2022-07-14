@@ -33,11 +33,11 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '                「 Chika BOT あ⁩ 」' //Main Watermark
+global.wm = '                「 © ᴄʜɪᴋᴀ ʙᴏᴛ⁩ 」' //Main Watermark
 
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
-global.wm3 = '⫹⫺ Chika 𝗕𝗢𝗧'
+global.wm3 = '⫹⫺ ᴄʜɪᴋᴀ ʙᴏᴛ'
 
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
@@ -46,7 +46,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 Chika BOT あ⁩ 」'
+global.author = '                「 © ᴄʜɪᴋᴀ ʙᴏᴛ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -85,7 +85,7 @@ global.bg = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://teleg
 /*============== NOMOR ==============*/
 global.nomorbot = '6285738860547'
 global.nomorown = '6285691686671'
-global.namebot = 'chika'
+global.namebot = 'ᴄʜɪᴋᴀ'
 global.nameown = 'Ownerレザマスター '
 
 /*=========== FAKE SIZE ===========*/
@@ -117,8 +117,8 @@ global.hsquere = '⛶', '❏', '⫹⫺'
 global.l = '「'
 global.r = '」'
 // Sticker WM
-global.packname = ''
-global.author = ''
+global.packname = '©ᴅɪ ʙᴜᴀᴛ ᴏʟᴇʜ'
+global.author = '❏ ʀᴇᴢᴀxᴅ ❏ ғᴏʟᴏᴡ ɪɢ ᴍᴇ sɪʜ_ʙᴏᴛ ❏ ʏᴛ ʀᴇᴢᴀxᴅ'
 
 global.multiplier = 69 // The higher, The harder levelup
 
