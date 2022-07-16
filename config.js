@@ -86,7 +86,7 @@ global.bg = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://teleg
 global.nomorbot = '6285738860547'
 global.nomorown = '6285691686671'
 global.namebot = 'ᴄʜɪᴋᴀ'
-global.nameown = 'ᵣₑzₐₓd'
+global.nameown = 'ʀᴇᴢᴀxᴅ 「 ᴏᴡɴᴇʀ 」'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
