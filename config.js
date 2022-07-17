@@ -118,7 +118,7 @@ global.l = '「'
 global.r = '」'
 // Sticker WM
 global.packname = '©ᴅɪ ʙᴜᴀᴛ ᴏʟᴇʜ'
-global.author = '❏ ʀᴇᴢᴀxᴅ ❏ ғᴏʟᴏᴡ ɪɢ ᴍᴇ sɪʜ_ʙᴏᴛ ❏ ʏᴛ ʀᴇᴢᴀxᴅ'
+global.author = '❏ ʀᴇᴢᴀxᴅ'
 
 global.multiplier = 69 // The higher, The harder levelup
 
