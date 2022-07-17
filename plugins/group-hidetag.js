@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, participants }) => {
   let q = m.quoted ? m.quoted : m
   let c = m.quoted ? m.quoted : m.msg
   let msg = conn.cMod(m.chat, generateWAMessageFromContent(m.chat, { [c.toJSON ? q.mtype : 'extendedTextMessage']: c.toJSON ? c.toJSON() : { text: c || '' }}, { quoted: null, userJid: conn.user.id }), text || q.text, conn.user.jid, { mentions: users })
-  await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id })
+  await conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, {quoted:fkontak})
 }
 handler.help = handler.alias = ['hidetag']
 handler.tags = ['group']
