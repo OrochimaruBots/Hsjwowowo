@@ -1,6 +1,7 @@
 function handler(m) {
   let data = global.owner.filter(([id, isCreator]) => id && isCreator)
-  this.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, {quoted:fkontak})
+  this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
+}
 handler.alias = ['owner']
 handler.command = /^(owner)$/i
 
