@@ -44,6 +44,27 @@ function start(file) {
         break
     }
   })
+  nBotInc.ev.on('groups.update', async pea => {
+       //console.log(pea)
+    // Get Profile Picture Group
+       try {
+       ppgc = await XeonBotInc.profilePictureUrl(pea[0].id, 'image')
+       } catch {
+       ppgc = 'https://telegra.ph/file/3983c55ac7f3ebea225d3.jpg'
+       }
+       let wm_fatih = { url : ppgc }
+       if (pea[0].announce == true) {
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been closed by admin, Now only admin can send messages !`, `${botname}`, wm_fatih, [])
+       } else if(pea[0].announce == false) {
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe group has been opened by admin, Now participants can send messages !`, `${botname}`, wm_fatih, [])
+       } else if (pea[0].restrict == true) {
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been restricted, Now only admin can edit group info !`, `${botname}`, wm_fatih, [])
+       } else if (pea[0].restrict == false) {
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup info has been opened, Now participants can edit group info !`, `${botname}`, wm_fatih, [])
+       } else {
+       XeonBotInc.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject has been changed to *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
+     }
+    })
   p.on('exit', (_, code) => {
     isRunning = false
     console.error('Exited with code:', code)
