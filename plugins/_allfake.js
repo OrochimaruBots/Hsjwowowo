@@ -124,7 +124,7 @@ handler.all = async function (m) {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Simple Bot Esm", 
+                           "description": "𖣘ᴀɴɪᴍᴇ ᴠᴀɴs 'ˢˡᵉᵇᵉʷ'", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
