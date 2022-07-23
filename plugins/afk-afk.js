@@ -21,6 +21,7 @@ user.afkReason = text
             }
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.command = /^afk$/i
+handler.customPrefix
+handler.command = new RegExp
 
 export default handler
