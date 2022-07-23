@@ -9,10 +9,10 @@ let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
  conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} is now AFK${text ? ': ' + text : ''}`, wm, 'Jangan Ganggu Ya', 'Bilek', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        mediaUrl: "https://Instagram.com/bot_whangsaf",
+        mediaUrl: "https://Instagram.com/sih_bot",
         mediaType: "VIDEO",
-        description: "https://Instagram.com/bot_whangsaf", 
-        title: 'Simple Bot Esm',
+        description: "https://Instagram.com/sih_bot", 
+        title: 'boy by 𝙕𝙞𝙭𝙮.𝙚𝘼𝙨𝙥𝙊𝙧𝙏.𝙭𝙭𝙭',
         body: wm,
         thumbnail: thumb,
         sourceUrl: sgc
@@ -21,7 +21,7 @@ user.afkReason = text
             }
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.customPrefix
+handler.customPrefix = /^(afk|.afk)$/i
 handler.command = new RegExp
 
 export default handler
