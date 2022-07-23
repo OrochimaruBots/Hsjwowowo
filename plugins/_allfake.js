@@ -44,19 +44,19 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: "Hallo " + name,
 					mediaUrl: sgc,
-					description: '𝗕𝗼𝘁.𝗯𝗬 𝙕𝙞𝙭𝙮.𝙚𝘼𝙨𝙥𝙊𝙧𝙏.𝙭𝙭𝙭',
+					description: 'simple bot esm',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pp)).buffer(),
-					sourceUrl: "https://github.com/Ikmd",					
+					sourceUrl: "https://github.com/FahriAdison",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/sih_bot",
+            mediaUrl: "https://Instagram.com/bot_whangsaf",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/sih_bot", 
-            title: '𝗕𝗼𝘁.𝗯𝗬 𝙕𝙞𝙭𝙮.𝙚𝘼𝙨𝙥𝙊𝙧𝙏.𝙭𝙭𝙭',
+            description: "https://Instagram.com/bot_whangsaf", 
+            title: 'Simple Bot Esm',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -124,7 +124,7 @@ handler.all = async function (m) {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "𖣘ᴀɴɪᴍᴇ ᴠᴀɴs 'ˢˡᵉᵇᵉʷ'", 
+                           "description": "Simple Bot Esm", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -157,7 +157,7 @@ handler.all = async function (m) {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "𖣘ᴀɴɪᴍᴇ ᴠᴀɴs 'ˢˡᵉᵇᵉʷ'", 
+                   "groupName": "Kawan Papah-Chan", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
