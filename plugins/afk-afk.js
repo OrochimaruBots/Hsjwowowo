@@ -21,6 +21,6 @@ user.afkReason = text
             }
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.customPrefix = /^(afk|.afk)$/i
+handler.command = /^(afk|.afk)$/i
 
 export default handler
