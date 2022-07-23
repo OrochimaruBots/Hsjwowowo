@@ -12,7 +12,7 @@ user.afkReason = text
         mediaUrl: "https://Instagram.com/sih_bot",
         mediaType: "VIDEO",
         description: "https://Instagram.com/sih_bot", 
-        title: 'boy by 𝙕𝙞𝙭𝙮.𝙚𝘼𝙨𝙥𝙊𝙧𝙏.𝙭𝙭𝙭',
+        title: '𝗕𝗼𝘁.𝗯𝗬 𝙕𝙞𝙭𝙮.𝙚𝘼𝙨𝙥𝙊𝙧𝙏.𝙭𝙭𝙭',
         body: wm,
         thumbnail: thumb,
         sourceUrl: sgc
