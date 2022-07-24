@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `Halo Kids ada yg bisa saya bantu?👋
+let text = `Halo Kids👋
 `
 const templateButtons = [
     {index: 1, urlButton: {displayText: 'Chat', url: 'https://wa.me/6285691686671?text=Hallo + Banh'}},
@@ -12,7 +12,7 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.customPrefix = /^(woi|hallo|bot|hllo|p|bang|owner)$/i
+handler.customPrefix = /^(woi|hallo|bot|hllo)$/i
 handler.command = new RegExp
 
 export default handler
